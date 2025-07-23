@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-details</title>
+    <style>
+ caption {
+    font-weight: bold;
+    color: darkblue;
+}
+
+tr, th, td {
+    padding: 10px;
+}
+
+col:nth-child(1) {
+    background-color: bisque;
+}
+
+col:nth-child(2),
+col:nth-child(3) {
+    background-color: aliceblue;
+}
+thead{
+    background-color: burlywood;
+}
+tfoot{
+    background-color: cadetblue;
+}
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Hi, I'm Ayesha Khan</h1>
+<p>
+I am a dedicated high school student with a passion for science, mathematics, and technology.
+Currently studying in 12th grade, I enjoy learning new concepts and applying them in creative ways.
+I aspire to become a software engineer and contribute to solving real-world problems through innovation.
+</p>    
+</header>
+<hr>
+<img src="https://png.pngtree.com/png-clipart/20240928/original/pngtree-school-student-with-hijab-png-image_16114163.png" width="300px" height="300px" alt="student-image">
+<hr>
+<table border="1" style="border-collapse: collapse;">
+    <colgroup>
+    <col span="1">
+    <col span="1">
+    <col span="1">
+</colgroup>
+    <caption>Student academics</caption>
+    <thead>
+        <tr>
+            <th>Subject</th>
+        <th>Mark</th>
+        <th>Grade</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maths</td>
+        <td>98</td>
+        <td>A+</td>
+      </tr>
+      <tr>
+        <td>Biology</td>
+        <td>97</td>
+        <td>A+</td>
+      </tr>
+      <tr>
+        <td>Chemistry</td>
+        <td>96</td>
+        <td>A+</td>
+      </tr>
+      <tr>
+        <td>Physics</td>
+        <td>99</td>
+        <td>A+</td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>390</td>
+            <td>A+</td>
+        </tr>
+    </tfoot>
+    
+</table>
+<hr>
+<section>
+    <form action="">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="enter your name" id="name"><br>
+             <label for="name">Email:</label>
+        <input type="email" placeholder="enter your email" id="name"><br>
+        <label for="class">Class: </label><select name="class" id="class">
+            <option value="S2A">S2A</option>
+            <option value="S2B">S2B</option>
+            <option value="S1A">S1A</option>
+            <option value="S1B">S1B</option>
+        </select><br>
+        <label for="feedbacks">Feedback:</label>
+         <datalist id="feedback">
+            <option value="Good">Good</option>
+            <option value="Excellent">Excellent</option>
+             <option value="Nice">Nice</option>
+             <option value="Not Bad">Not Bad</option>
+             <option value="Need to improve">"Need to improve</option>
+        </datalist>
+        <input list="feedback" id="feedbacks"/><br>
+        <button type="submit">submit</button>
+    </form>
+</section>
+<hr>
+<footer>
+    <a href="mailto:fathimashameela2024@gmail.com">Contact Us:</a>
+</footer>
+</body>
+</html>
